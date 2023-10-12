@@ -52,3 +52,10 @@ Desconecta la tarjeta de la entrada COM y conéctala a la entrada USB.
 Espera a que los controladores se carguen y la tarjeta aparezca como un dispositivo de memoria en tu sistema.
 
 ¡Listo! Has instalado CircuitPython en tu tarjeta ESP32-S3. Ahora puedes comenzar a desarrollar proyectos con CircuitPython en tu tarjeta.
+
+## OTROS
+
+La documentación de esta tarjeta se puede encontrar en chino en [este enlace](https://github.com/vcc-gnd/YD-ESP32-S3).
+![PinOut](https://raw.githubusercontent.com/vcc-gnd/YD-ESP32-S3/2bc46637916af78ec6a7ba52ead7a255fc306a3a/IMG/img11.jpg)
+
+Para poder usar el led RGB, es necesario conectar (o soldar) las dos conexiones que están al lado del LED y que tienen como etiqueta RGB.
