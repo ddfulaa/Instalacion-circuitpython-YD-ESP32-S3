@@ -5,8 +5,8 @@ Este documento proporciona instrucciones detalladas para instalar CircuitPython 
 ## Paso 1: Instalación de esptool
 Lo primero que necesitamos hacer es instalar la herramienta esptool. Abre tu terminal o línea de comandos y ejecuta el siguiente comando:
 
-
 ```pip install esptool```
+
 Esto instalará esptool en tu sistema.
 
 ## Paso 2: Conexión de la tarjeta ESP32-S3
@@ -18,9 +18,12 @@ Es importante identificar a qué puerto COM se ha conectado la tarjeta. En Windo
 ## Paso 4: Pruebas de conexión
 Abre la terminal o línea de comandos y realiza las siguientes pruebas para asegurarte de que la tarjeta se ha conectado correctamente:
 
-```esptool version```
+```esptool version``` 
+
 ```esptool --chip auto```
+
 ```esptool --chip auto --port <PUERTO> chip_id```
+
 ```esptool --chip auto --port <PUERTO> flash_id```
 
 Reemplaza <PUERTO> con el número del puerto COM al que se ha conectado la tarjeta. Si todos los comandos funcionan sin errores, significa que la tarjeta se ha conectado correctamente.
